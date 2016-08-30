@@ -35,7 +35,7 @@
     </td>
     <td width="27%">
 
-:ref:`固件 <common-downloads_firmware>`- 选择不同的载具就就有着相匹配的固件。由你自己选择适合你作业任务的载具与固件: :ref:`固定翼 <plane:home>`, :ref:`多旋翼 <copter:home>`,
+:ref:`固件 <common-downloads_firmware>`- 选择不同的载具就有着相匹配的固件。由你自己选择适合你作业任务的载具与固件: :ref:`固定翼 <plane:home>`, :ref:`多旋翼 <copter:home>`,
 :ref:`车 <rover:home>`...
 
 选择权在你——一款自驾仪可以应对任何作业任务。更新固件就可以将自驾仪用作其他任务。
@@ -51,11 +51,11 @@
     </td>
     <td width="27%">
 
-:ref:`软件 <planner:home>`- 你与硬件交互的界面。
+:ref:`软件 <planner:home>`- 你与自驾仪交互的界面。
 
 初始设置，配置，测试。任务规划与后分析。
 
-与硬件进行直观的指点运动操作，或者自定义任务脚本。Ardupilot有着多种多样的选择。
+与自驾仪进行直观的设置操作，或者自定义任务脚本。Ardupilot有着多种多样的选择。
 
 .. image:: ../../images/mission_planner_spline_waypoint.jpg
     :target: _images/mission_planner_spline_waypoint.jpg
@@ -75,6 +75,10 @@
 ==========
 
 `社区 <http://discuss.ardupilot.org/>`__- 社区真正使得Ardupilot与闭源软件区分开。在这里，就Ardupilot用户可以和开发者进行公开的交流。
+
+.. image:: ../../images/ArduPilotDiscuss.png
+    :target: http://discuss.ardupilot.org/
+    :width: 640p
 
 
 `DIYDRONES.COM <http://diydrones.com/>`__- ArduPilot之前的社区。
