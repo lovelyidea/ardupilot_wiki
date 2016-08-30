@@ -2,13 +2,13 @@
 
 ..  raw:: html
 
-    <h1 style="text-align:center;">ArduPilot Autopilot Suite</h1>
+    <h1 style="text-align:center;">ArduPilot自驾仪套件</h1>
 
-    <p style="text-align:center;">Hardware -- Firmware -- Software -- Community</p>
+    <p style="text-align:center;">硬件——固件——软件——社区</p>
 
-.. tip::
+.. 提示::
 
-   The ArduPilot Developer Ecosystem is Evolving! `Find out more here … <http://diydrones.com/profiles/blogs/a-new-chapter-in-ardupilot-development>`__
+  一个全新的Ardupilot开发者生态系统正在演! `点击查看详情 <http://diydrones.com/profiles/blogs/a-new-chapter-in-ardupilot-development>`__
    
 .. image:: ../../images/home_ardupilot.jpg
     :target: _images/home_ardupilot.jpg
@@ -20,11 +20,9 @@
     <td width="27%">
 
 
-:ref:`Hardware <stores>` - The embedded systems and
-peripheral sensors that act as the vehicle's brain, eyes, ears, etc.
+:ref:`硬件 <stores>` - 嵌入式系统与外围传感器充当着载具的大脑，眼睛，耳朵等。
 
-Almost any mobile machine can be transformed into a robot, by simply
-integrating a small hardware package into it.
+只要集成一个硬件包，几乎所有可移动的机器都可以变成机器人。
 
 .. image:: ../../images/pixhawk_small.jpg
     :target: _images/pixhawk_small.jpg
@@ -37,14 +35,10 @@ integrating a small hardware package into it.
     </td>
     <td width="27%">
 
-:ref:`Firmware <common-downloads_firmware>`- The "skill set" code
-running on the hardware, which configures it for the kind of vehicle
-you've put it in. You choose the firmware and vehicle that match your
-mission: :ref:`Plane <plane:home>`, :ref:`Copter <copter:home>`,
-:ref:`Rover <rover:home>`...
+:ref:`固件 <common-downloads_firmware>`- 选择不同的载具就就有着相匹配的固件。由你自己选择适合你作业任务的载具与固件: :ref:`固定翼 <plane:home>`, :ref:`多旋翼 <copter:home>`,
+:ref:`车 <rover:home>`...
 
-The choice is yours -- one autopilot for any mission. An easy firmware
-update is all it takes to repurpose your hardware into a different role.
+选择权在你——一款自驾仪可以应对任何作业任务。更新固件就可以将自驾仪用作其他任务。
 
 .. image:: ../../images/firmware_types.jpg
     :target: _images/firmware_types.jpg
@@ -57,15 +51,11 @@ update is all it takes to repurpose your hardware into a different role.
     </td>
     <td width="27%">
 
-:ref:`Software <planner:home>`- Your interface to the
-hardware.
+:ref:`软件 <planner:home>`- 你与硬件交互的界面。
 
-Initial set-up, configuration, and testing. Mission-planning/operation,
-and post-mission analysis.
+初始设置，配置，测试。任务规划与后分析。
 
-Point-and-click intuitive interaction with your hardware, or advanced
-custom scripting for niche mission profiles. Options are everything with
-ArduPilot.
+与硬件进行直观的指点运动操作，或者自定义任务脚本。Ardupilot有着多种多样的选择。
 
 .. image:: ../../images/mission_planner_spline_waypoint.jpg
     :target: _images/mission_planner_spline_waypoint.jpg
@@ -81,20 +71,15 @@ ArduPilot.
 
 --------------
 
-Community:
+社区:
 ==========
 
-`Community <http://discuss.ardupilot.org/>`__- This is what really sets
-ArduPilot apart from the closed-source offerings in the market. An area for 
-open discourse on the ArduPilot projects direction between developers 
-and its customers.
+`社区 <http://discuss.ardupilot.org/>`__- 社区真正使得Ardupilot与闭源软件区分开。在这里，就Ardupilot用户可以和开发者进行公开的交流。
 
-`DIYDRONES <http://diydrones.com/>`__- ArduPilot previous community home.
 
-A constantly evolving repository of knowledge and innovation. The DIY
-Drones community provided a home and now still provides inspiration for ArduPilot.
-A comprehensive list of features that are continually born from the
-needs of the community.
+`DIYDRONES.COM <http://diydrones.com/>`__- ArduPilot之前的社区。
+
+这是一个知识与创新不断进步完善的家园。DIY Drones社区曾经、现在都在为ArduPilot提供者创意灵感。ArduPilot有非常多的特性是来源于社区的需求。
 
 .. image:: ../../images/diydrones.jpg
     :target: http://diydrones.com
@@ -102,7 +87,7 @@ needs of the community.
 
 --------------
 
-Features:
+特点:
 =========
 
 
@@ -112,16 +97,12 @@ Features:
     <tr>
     <td width="48%">
 
--  Point-and-click programming/configuration gets you up and operating
-   without hassle
--  Multiple command modes: Acro, Stabilize, Loiter, Alt-hold, Return To
-   Launchpoint, Land, Simple, Guided, Position, Circle, Follow Me,
-   GeoFence, and Auto (which runs fully scripted missions using GPS
-   waypoints)
--  Failsafe programming options bring peace of mind in the event of lost
-   control signal or low battery conditions
--  Three Axis camera control and stabilization, shutter control, live
-   video link with programmable on-screen-display
+-  指向-点击的设置让你的操作简单无比
+-  多种飞行模式:手动（Acro）, 自稳(Stabilize), 悬停（Loiter）, 定高（Alt-hold）, 返航（Return To
+   Launchpoint）, 降落（Land）,简单（Simple）, 指点（Guided), 定点（Position）,绕圈（Circle）, 跟随（Follow Me）,
+   地理栅栏（Geofence）, 以及自动(按照编制好的路径依靠GPS行进)   
+-  失控保护设置让你不再担心丢失遥控信号以及电池电量低。
+-  相机三轴稳定控制，快门控制，实时图像传输与可编程OSD。
 
 ..  raw:: html
 
@@ -130,12 +111,9 @@ Features:
     </td>
     <td width="48%">
 
--  Data transceivers allow real-time telemetry and control between your
-   ground station computer and APM, including joystick control options
--  Full data logging provides comprehensive post mission analysis, with
-   graphing and Google Earth mapping tools
--  No dead ends -- Advanced users will find endless options for
-   customization and expanded mission capabilities
+-  数据收发功能能让你利用实时电台在计算机与自驾仪之间通信并控制自驾，也可以使用Joystick来控制。
+-  全数据记录，再借助Google Earth与图表工具，能进行复杂的数据后分析。
+-  一直在进步——高级用户会不断开发出非常多的新功能.
 
 
 ..  raw:: html
@@ -154,11 +132,9 @@ Features:
     :target:  http://www.dronecode.org/
 
 
-.. note::
+.. 注意::
 
-    ArduPilot, :ref:`Mission Planner <planner:home>`, :ref:`APM Planner <planner2:home>` are all
-    `Dronecode <https://www.dronecode.org/>`__ -supported projects.
-
+    ArduPilot, :ref:`Mission Planner <planner:home>`, :ref:`APM Planner <planner2:home>` 均是    `Dronecode <https://www.dronecode.org/>`__ -支持的项目。
 
 .. toctree::
    :hidden:
