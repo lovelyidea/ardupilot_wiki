@@ -1,63 +1,56 @@
 .. _apmcopter-programming-libraries:
 
 ===============================
-ArduPilot Programming Libraries
+ArduPilot程序库
 ===============================
 
-The \ `the libraries <https://github.com/ArduPilot/ardupilot/tree/master/libraries>`__ are
-shared with Copter, Plane and Rover. Below is a high level list of
-libraries and their function.
+\ `库文件 <https://github.com/ArduPilot/ardupilot/tree/master/libraries>`__ 由Copter、Plane和Rover共享。下面是一些顶层库以及对应的功能列表。
 
-**Core libraries:**
+**核心库：**
 
 -  `AP_AHRS <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_AHRS>`__ -
-   attitude estimation using DCM or EKF
+   使用DCM或者EKF估计姿态
 -  `AP_Common <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_InertialNav>`__ -
-   core includes required by all sketches and libraries
+   所有程序和库所需的核心
 -  `AP_Math <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Math>`__ -
-   various math functions especially useful for vector manipulation
+   多种数学函数，特别是向量操作
 -  `AC_PID <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AC_PID>`__ -
-   PID controller library
+   PID控制器
 -  `AP_InertialNav <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_InertialNav>`__ -
-   inertial navigation library for blending accelerometer inputs with
-   gps and baro data
+   惯性导航库，用于惯导信息和GPS信息以及气压信息的融合
 -  `AC_AttitudeControl <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AC_AttitudeControl>`__
-   -
+   -姿态控制
 -  `AP_WPNav <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_InertialNav>`__
-   - waypoint navigation library
+   -路径点导航
 -  `AP_Motors <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Motors>`__
-   - multicopter and traditional helicopter motor mixing
+   - 多旋翼和常规布局直升机的电机混控
 -  `RC_Channel <https://github.com/ArduPilot/ardupilot/tree/master/libraries/RC_Channel>`__ -
-   a library to more convert pwm input/output from APM_RC into internal
-   units such as angles
+   将PWM输入/输出从APM_RC转换为内部单位，例如：角度
 -  `AP_HAL <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_HAL>`__,
    `AP_HAL_AVR <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_HAL_AVR>`__,
    `AP_HAL_PX4 <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_HAL_PX4>`__
-   - libraries to implement the "Hardware abstraction layer" which
-   presents an identical interface to the high level code so that it can
-   more easily be ported to different boards.
+   - 实现“硬件抽象层”，该层对高层代码提供统一的接口，以使高层代码便于移植到不同的硬件
 
-**Sensor libraries:**
+**传感器库：**
 
 -  `AP_InertialSensor <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_InertialSensor>`__ -
-   reads gyro and accelerometer data, perform calibration and provides
-   data in standard units (deg/s, m/s) to main code and other libraries
+   读取陀螺仪和加速度计数据，执行校准，并以标准单位想主程序或者其它库提供数据
 -  `AP_RangeFinder <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_RangeFinder>`__ -
-   sonar and ir distance sensor interfaced library
+   声纳和红外接口
 -  `AP_Baro <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Baro>`__ -
-   barometer interface library
+   气压计接口
 -  `AP_GPS <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_GPS>`__ -
-   gps interface library
+   GPS接口
 -  `AP_Compass <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Compass>`__ -
-   3-axis compass interface library
+   3轴磁罗盘接口
 -  `AP_OpticalFlow <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_OpticalFlow>`__ -
-   optical flow sensor interface library
+   光流接口
 
-**Other libraries:**
+**其它库：**
 
 -  `AP_Mount <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Mount>`__, \ `AP_Camera <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Camera>`__, \ `AP_Relay <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Relay>`__ -
-   camera mount control library, camera shutter control libraries
+   云台控制以及相机快门控制
 -  `AP_Mission <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Mission>`__
-   - stores/retrieves mission commands from eeprom
+   - 在eeprom中存储/恢复任务指令
 -  `AP_Buffer <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Buffer>`__ -
-   a simple FIFO buffer for use with inertial navigation
+   惯导所使用的简单FIFO缓冲器
