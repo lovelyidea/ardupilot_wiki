@@ -132,18 +132,20 @@
     :target:  http://www.dronecode.org/
 
 
-.. 注意::
+.. note::
 
-    ArduPilot, :ref:`Mission Planner <planner:home>`, :ref:`APM Planner <planner2:home>` 均是    `Dronecode <https://www.dronecode.org/>`__ -支持的项目。
+    ArduPilot, :ref:`Mission Planner <planner:home>`, :ref:`APM Planner <planner2:home>` are all
+    `Dronecode <https://www.dronecode.org/>`__ -supported projects.
+
 
 .. toctree::
    :hidden:
 
-   Copter <http://ardupilot.org/copter/index.html>
-   Plane <http://ardupilot.org/plane/index.html>
-   Rover <http://ardupilot.org/rover/index.html>
-   Mission Planner <http://ardupilot.org/planner/index.html>
-   APM Planner 2 <http://ardupilot.org/planner2/index.html>
-   AntennaTracker <http://ardupilot.org/antennatracker/index.html>
-   Developers <http://ardupilot.org/dev/index.html>
+   Copter <http://wiki.osdrone.net/copter/index.html>
+   Plane <http://wiki.osdrone.net/plane/index.html>
+   Rover <http://wiki.osdrone.net/rover/index.html>
+   Mission Planner <http://wiki.osdrone.net/planner/index.html>
+   APM Planner 2 <http://wiki.osdrone.net/planner2/index.html>
+   AntennaTracker <http://wiki.osdrone.net/antennatracker/index.html>
+   Developers <http://wiki.osdrone.net/dev/index.html>
 
