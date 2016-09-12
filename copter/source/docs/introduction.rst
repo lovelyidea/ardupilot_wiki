@@ -1,13 +1,12 @@
 .. _introduction:
 
 ==================
-Introducing Copter
+多旋翼固件简介
 ==================
 
-Copter is an advanced open-source autopilot system for multicopters,
-helicopters, and other rotor vehicles.
+Copter是一个先进的开源自驾仪系统，可以应用在多旋翼、直升机和其他旋翼飞机上。
 
-Overview
+概览
 ========
 
 Copter is complete open-source autopilot solution for multi-rotor
