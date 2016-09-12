@@ -71,7 +71,7 @@
 ~~~~~~~~~~~~~~~~~
 
 
-- 搭载最新 `多旋翼固件 <http://firmware.ardupilot.orgd/>` 或者 :ref:`其他自驾仪 <common-autopilots>` 
+- 搭载最新 `多旋翼固件 <http://firmware.ardupilot.orgd/>`__ 或者 :ref:`其他自驾仪 <common-autopilots>` 
 -  :ref:`Mission Planner软件 <planner:home>` --让用户更方便的通过地面站调整安装、功能配置。
 -  此多旋翼Wiki有着你安装、调试多旋翼或传统直升机的所有知识。 
 -  一个适合你作业任务的
