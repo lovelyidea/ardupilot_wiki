@@ -6,7 +6,7 @@ Copter Home
 
 .. tip::
 
-   The ArduPilot Developer Ecosystem is Evolving! `Find out more here … <http://diydrones.com/profiles/blogs/a-new-chapter-in-ardupilot-development>`__
+ ArduPilot 开发者生态系统正在创新发展!  `点击这里查看详细内容 … <http://diydrones.com/profiles/blogs/a-new-chapter-in-ardupilot-development>`__
 
 
 .. image:: /images/home_copter.jpg
@@ -67,27 +67,21 @@ Copter Home
 
 --------------
 
-System components
+系统组成
 ~~~~~~~~~~~~~~~~~
 
 
--  A `Pixhawk <https://store.3dr.com/t/pixhawk>`__ or :ref:`other autopilot <common-autopilots>` 
-   loaded with the latest version of
-   the `Copter firmware <http://firmware.ardupilot.org/>`__.
--  :ref:`Mission Planner software <planner:home>` -- gives
-   you an easy point-and-click setup/configuration, and a full-featured
-   ground control interface.
--  This Copter Wiki provides all the information you need to set up and
-   operate a multicopter or traditional helicopter. 
--  A suitable
-   :ref:`MultiCopter <build-your-own-multicopter>` or
-   :ref:`Helicopter <traditional-helicopters>` for your mission.
--  Plus many other useful options: e.g. data radios, which allow two-way
-   wireless telemetry and control between the vehicle and your computer.
+- 搭载最新 `多旋翼固件 <http://firmware.ardupilot.orgd/>`__. 的`Pixhawk <https://store.3dr.com/t/pixhawk>`__ 或者 :ref:`其他自驾仪 <common-autopilots>` 
+-  :ref:`Mission Planner软件 <planner:home>` --让用户更方便的通过地面站调整安装、功能配置。
+-  此多旋翼Wiki有着你安装、调试多旋翼或传统直升机的所有知识。 
+-  一个适合你作业任务的
+   :ref:`多旋翼飞机 <build-your-own-multicopter>` 或者
+   :ref:`直升机 <traditional-helicopters>` for your mission.
+-  此外还有很多其他有用的功能附件，比如数传电台，可以用它实现电脑和飞行器的控制与数据传输功能。
 
 --------------
 
-Rotor Craft types
+旋翼飞行器类型
 ~~~~~~~~~~~~~~~~~
 
 ..  raw:: html
@@ -153,7 +147,7 @@ interfaces to accomplish a wide variety of tasks.
 
 --------------
 
-Getting more info
+更多内容
 ~~~~~~~~~~~~~~~~~
 
 -  Continue to the :ref:`Introduction section of this wiki. <introduction>`
@@ -169,7 +163,7 @@ Getting more info
 .. toctree::
    :hidden:
    
-   Introducing Copter <docs/introduction>
+   多旋翼简介 <docs/introduction>
    First Time Setup <docs/initial-setup>
    First Flight <docs/flying-arducopter>
    Advanced Configuration <docs/common-advanced-configuration>
