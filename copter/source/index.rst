@@ -1,7 +1,7 @@
 .. _home:
 
 ===========
-Copter Home
+多旋翼主页
 ===========
 
 .. tip::
@@ -71,12 +71,12 @@ Copter Home
 ~~~~~~~~~~~~~~~~~
 
 
-- 搭载最新 `多旋翼固件 <http://firmware.ardupilot.orgd/>`__. 的`Pixhawk <https://store.3dr.com/t/pixhawk>`__ 或者 :ref:`其他自驾仪 <common-autopilots>` 
+- 搭载最新 `多旋翼固件 <http://firmware.ardupilot.orgd/>` 或者 :ref:`其他自驾仪 <common-autopilots>` 
 -  :ref:`Mission Planner软件 <planner:home>` --让用户更方便的通过地面站调整安装、功能配置。
 -  此多旋翼Wiki有着你安装、调试多旋翼或传统直升机的所有知识。 
 -  一个适合你作业任务的
    :ref:`多旋翼飞机 <build-your-own-multicopter>` 或者
-   :ref:`直升机 <traditional-helicopters>` for your mission.
+   :ref:`直升机 <traditional-helicopters>` 。
 -  此外还有很多其他有用的功能附件，比如数传电台，可以用它实现电脑和飞行器的控制与数据传输功能。
 
 --------------
