@@ -138,18 +138,18 @@
 
 .. note::
 
-    ArduPilot, :ref:`Mission Planner <planner:home>`, :ref:`APM Planner <planner2:home>` are all
-    `Dronecode <https://www.dronecode.org/>`__ -supported projects.
+    ArduPilot, :ref:`Mission Planner <planner:home>`, :ref:`APM Planner <planner2:home>` 都是
+    `Dronecode <https://www.dronecode.org/>`__ 支持的项目
 
 
 .. toctree::
    :hidden:
 
-   Copter <http://wiki.osdrone.net/copter/index.html>
-   Plane <http://wiki.osdrone.net/plane/index.html>
-   Rover <http://wiki.osdrone.net/rover/index.html>
+   多旋翼 <http://wiki.osdrone.net/copter/index.html>
+   固定翼 <http://wiki.osdrone.net/plane/index.html>
+   船（车）<http://wiki.osdrone.net/rover/index.html>
    Mission Planner <http://wiki.osdrone.net/planner/index.html>
    APM Planner 2 <http://wiki.osdrone.net/planner2/index.html>
-   AntennaTracker <http://wiki.osdrone.net/antennatracker/index.html>
-   Developers <http://wiki.osdrone.net/dev/index.html>
+   自动跟踪天线<http://wiki.osdrone.net/antennatracker/index.html>
+   开发者<http://wiki.osdrone.net/dev/index.html>
 
