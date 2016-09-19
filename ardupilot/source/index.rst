@@ -132,14 +132,7 @@
 --------------
 
 
-.. image:: ../../images/dronecode-logo.jpg
-    :target:  http://www.dronecode.org/
 
-
-.. note::
-
-    ArduPilot, :ref:`Mission Planner <planner:home>`, :ref:`APM Planner <planner2:home>` 都是
-    `Dronecode <https://www.dronecode.org/>`__ 支持的项目
 
 
 .. toctree::
