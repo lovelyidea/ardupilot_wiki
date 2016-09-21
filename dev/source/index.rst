@@ -1,7 +1,7 @@
 .. _home:
 
 =========================================
-Welcome to the ArduPilot Development Site
+欢迎访问ArduPilot开发站点
 =========================================
 
 .. tip::
