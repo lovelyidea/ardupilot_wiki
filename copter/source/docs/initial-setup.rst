@@ -1,16 +1,13 @@
 .. _initial-setup:
 
 ================
-First Time Setup
+初次安装
 ================
 
 .. image:: ../images/Quad_Color6.jpg
     :target: ../_images/Quad_Color6.jpg
 
-First-time setup of the autopilot includes downloading and installing
-the *Mission Planner* GCS, mounting the flight controller to the frame,
-connecting it to the receiver, power and motors, and then performing
-initial configuration and calibration.
+自驾仪的初次安装使用包括：下载Mission Planner地面站、飞控装机以及完成首要设置和传感器校准。
 
 .. note::
 
