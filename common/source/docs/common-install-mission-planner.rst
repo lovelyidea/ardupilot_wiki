@@ -1,64 +1,56 @@
 .. _common-install-mission-planner:
 
 ==========================
-Installing Mission Planner
+安装 Mission Planner 地面站
 ==========================
 
-*Mission Planner* is free, open source software available for Windows.
-These instructions will guide you through installing *Mission Planner*
-on your ground station computer.
+*Mission Planner* 是免费使用的, 适用于Windows的开源软件.
+这些说明将指导您将 *Mission Planner*
+地面站成功安装在您的电脑上.
 
-Download the most recent Mission Planner installer file
+下载最新的Mission Planner安装程序文件
 =======================================================
 
-Download the `latest Mission Planner installer from here <http://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-latest.msi>`__.
+从这里下载最新的 `Mission Planner安装程序 <http://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-latest.msi>`__.
 
-Run the installation utility
+运行安装程序
 ============================
 
-Open the Microsoft installer file (.msi) and select **Run** to run the
-installation utility.
+打开Microsoft安装程序文件（.msi）并选择运行安装程序.
 
 .. image:: ../../../images/installation.png
     :target: ../_images/installation.png
 
-Follow the instructions to complete the setup process. The installation
-utility will automatically install any necessary software drivers. If
-you receive a DirectX installation error, please update your DirectX
-plug-in from the `DirectX Download Center <http://www.microsoft.com/en-us/download/details.aspx?id=35>`__.
+按照说明完成设置过程。 安装实用程序将自动安装任何必要的软件驱动程序 如果您收到DirectX安装错误，请从DirectX下载中心更新您的DirectX插件 `DirectX下载中心 <http://www.microsoft.com/en-us/download/details.aspx?id=35>`__.
 
-If you receive the warning pictured here, select **Install this driver
-software anyway** to continue.
+I如果收到此处所示的警告，请选择 **仍然安装此驱动程序软件** 以继续.
 
 .. image:: ../../../images/driver_installation_warning.png
     :target: ../_images/driver_installation_warning.png
 
-*Mission Planner* is normally installed in the **C:\\Program Files
-(x86)\\APM Planner** folder or the \ **C:\\Program Files\\APM Planner**
-folder. That is where your log files folder is located.
+*Mission Planner* 通常安装在 **C:\\Program Files
+(x86)\\APM Planner** 文件夹或 \ **C:\\Program Files\\APM Planner**
+文件夹中. 这就是你的日志文件的文件夹的位置.
 
-An icon to open the *Mission Planner* is created according to your
-instructions during the installation.
+在安装过程中，将根据您的选择创建用于打开 *Mission Planner*的图标
 
-Open Mission Planner
+打开 Mission Planner
 ====================
 
-Once installation is complete, open *Mission Planner* by clicking on its
-system icon.
+安装完成后, 通过点击图标打开 *Mission Planner* 
 
-Then you can either:
+然后你可以:
 
--  :ref:`Connect Mission Planner to AutoPilot <common-connect-mission-planner-autopilot>` in order to
-   receive telemetry and control the vehicle, or
--  :ref:`Load Firmware <common-loading-firmware-onto-pixhawk>`
+-  :ref:`将 Mission Planner 和飞控连接 <common-connect-mission-planner-autopilot>` 可以通过数传遥测和控制飞行器, 或者
+-  :ref:`刷写固件 <common-loading-firmware-onto-pixhawk>`
 
-Updating Mission Planner
+更新 Mission Planner
 ========================
 
-*Mission Planner* automatically notifies you about available updates
-(when it is connected to the Internet).
+*Mission Planner* 会自动通知您有可用的更新
+(在连接到互联网时).
 
-Please always run the most current version of Mission Planner.
+请始终运行最新版本的Mission Planner.
 
 [copywiki destination="copter,plane,rover,planner"]
 
