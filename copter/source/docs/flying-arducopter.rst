@@ -1,7 +1,7 @@
 .. _flying-arducopter:
 
 ========================
-First Flight with Copter
+多轴首飞
 ========================
 
 This section covers the information you will need to know for your first
@@ -19,13 +19,13 @@ Please follow each of the links below.
 .. toctree::
     :maxdepth: 1
 
-    Flight Modes <flight-modes>
-    Pre-arm Safety Check <prearm_safety_check>
-    Arming and Disarming <arming_the_motors>
-    Getting Off the Ground – Tips for New Operators <ac_tipsfornewpilots>
-    Basic Tuning <basic-tuning>
-    Measuring Vibration <common-measuring-vibration>
-    Setting Throttle Mid <ac_throttlemid>
-    Save Trim & Auto Trim <autotrim>
-    Failsafe Mechanisms <failsafe-landing-page>
-    Pre-Flight Checklist <checklist>
+    飞行模式 <flight-modes>
+    解锁与安全检查 <prearm_safety_check>
+    解锁与加锁 <arming_the_motors>
+    起飞 – Tips for New Operators <ac_tipsfornewpilots>
+    基本调参 <basic-tuning>
+    振动测量 <common-measuring-vibration>
+   设定油门中立点 <ac_throttlemid>
+    储存校准与自动校准 <autotrim>
+    失控保护机制 <failsafe-landing-page>
+    飞行前检查清单 <checklist>
