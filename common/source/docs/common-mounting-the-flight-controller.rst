@@ -1,13 +1,13 @@
 .. _common-mounting-the-flight-controller:
 
 ==============================
-Mounting the Flight Controller
+安装飞控
 ==============================
 
 This article explains how to mount the flight controller in standard and
 alternative orientations.
 
-Standard orientation
+标准方向
 ====================
 
 The :ref:`Autopilot board <common-autopilots>` (Pixhawk etc.) should be
@@ -35,7 +35,7 @@ come with foam cubes made by `3M <http://www.3m.com/>`__).
    vibration control. If :ref:`Measuring Vibration <common-measuring-vibration>` shows that it is not
    sufficient, alternative mechanisms are discussed in :ref:`Vibration Damping <common-vibration-damping>`.
 
-Alternative orientations
+自定义方向
 ========================
 
 If the standard orientation of the Pixhawk/APM2 is not convenient, it
