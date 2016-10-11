@@ -1,7 +1,7 @@
 .. _common-pixhawk-wiring-and-quick-start:
 
 ==========================
-Pixhawk Wiring Quick Start
+Pixahwk连线快速入门
 ==========================
 
 This article provides high level information about how to power Pixhawk
@@ -16,7 +16,7 @@ and connect its most important peripherals.
    powered from the RCIN port of your Pixhawk you may damage your
    Pixhawk.
 
-Pixhawk Wiring Chart
+Pixhawk连接示意图
 ====================
 
 .. image:: ../../../images/pixhawk_connect_essential_peripherals.jpg
@@ -26,7 +26,7 @@ Pixhawk Wiring Chart
 Copter users should also see the :ref:`Advanced Pixhawk Quadcopter Wiring Chart <copter:advanced-pixhawk-quadcopter-wiring-chart>`.
 [/site]
 
-Power Pixhawk
+Pixhawk供电
 =============
 
 Pixhawk is typically powered via its "power" port, as shown in the
@@ -38,7 +38,7 @@ module. Information about powering the Pixhawk can be found in the topic
 .. image:: ../../../images/pixhawkpower-port.jpg
     :target: ../_images/pixhawkpower-port.jpg
 
-Connect remote control inputs
+遥控器连接
 =============================
 
 Pixhawk is compatible with PPM remote control (RC) receivers, Futaba
@@ -53,7 +53,7 @@ about compatible receivers and how they are connected can be found in
 
    FRSky Taranis Transmitter
 
-Connect buzzer and safety switch
+连接蜂鸣器与安全开关
 ================================
 
 The buzzer and safety switch button are mandatory for Pixhawk. Connect
@@ -67,7 +67,7 @@ to the BUZZER and SWITCH ports as shown.
    Mount the beeper is at least 5cm away from the flight
    controller or the noise may upset the accelerometers.
 
-3DR GPS+Compass
+3DR GPS与罗盘
 ===============
 
 The :ref:`3DR UBlox GPS + Compass Module <common-installing-3dr-ublox-gps-compass-module>` is the
@@ -84,7 +84,7 @@ The topic :ref:`3DR UBlox GPS + Compass Module <common-installing-3dr-ublox-gps-
 shows how to connect to Pixhawk and include additional configuration and
 mounting information.
 
-Connect Motors
+连接电机
 ==============
 
 .. image:: ../../../images/pixhawk_motor_outputs.jpg
@@ -121,7 +121,7 @@ signal pins:
 The skid-steer parameters are used to configure vehicles that have fixed wheels and steer like tank tracks (do not use servos to steer the wheels but rather use differential speed between the left and right wheels). The parameters are: SKID_STEER_OUT and SKID_STEER_IN. When enabled, flight controller's ouput RC1 is used for the left track control, and ouput RC3 is used for right track control.
 [/site]
 
-Connect other peripherals
+其他部件连接
 =========================
 
 Depending on your hardware there may be any number of other peripherals
@@ -131,7 +131,7 @@ as sub-pages of the topic :ref:`Optional Hardware <common-optional-hardware>`.
 Information about connecting these peripherals to Pixhawk is found in
 the respective pages.
 
-Related information
+相关信息
 ===================
 
 -  :ref:`Pixhawk Overview <common-pixhawk-overview>` - includes specifications, pin assignments etc.
