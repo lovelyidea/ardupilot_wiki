@@ -11,11 +11,10 @@
 
 .. note::
 
-   This section assumes that you've already :ref:`chosen and built a frame <choosing-a-frame>` and have
-   :ref:`selected your flight controller <common-choosing-a-flight-controller>`.
+   本节假设您已经 :ref:`选择和组装好一个多轴的框架 <choosing-a-frame>` 并且已经
+   :ref:`决定用哪一种飞控 <common-choosing-a-flight-controller>`.
 
-For more information on each of these tasks (sorted by flight controller
-within the sections) see the topics below:
+有关这些任务的更多信息(按照飞行控制器在部分内排序) 请参阅下面的主题:
 
 .. toctree::
     :maxdepth: 1
@@ -29,6 +28,5 @@ within the sections) see the topics below:
     
 .. tip::
 
-    The next section (:ref:`First Flight <flying-arducopter>`)
-    explains how to start flying using Copter, and further tuning and
-    configuration required for new systems.
+    下一节 (:ref:`首次飞行 <flying-arducopter>`)
+    解释了如何开始使用多轴飞行器，并进一步优化和配置新的系统要求。
