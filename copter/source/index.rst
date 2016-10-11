@@ -164,21 +164,21 @@ interfaces to accomplish a wide variety of tasks.
    :hidden:
    
    多旋翼简介 <docs/introduction>
-   First Time Setup <docs/initial-setup>
-   First Flight <docs/flying-arducopter>
-   Advanced Configuration <docs/common-advanced-configuration>
-   Mission Planning <docs/common-mission-planning>
-   Mission Analysis <docs/common-mission-analysis>
-   Optional Hardware <docs/common-optional-hardware>
-   Traditional Helicopters <docs/traditional-helicopters>
-   Tricopter <docs/tricopter>
-   SingleCopter and CoaxCopter <docs/singlecopter-and-coaxcopter>
-   AutoPilot Hardware Options <docs/common-autopilots>
-   Use-Cases and Applications <docs/common-use-cases-and-applications>
-   Antenna Tracking <docs/common-antenna-tracking>
-   Simulation <docs/common-simulation>
-   Appendix <docs/common-appendix>
-   Full Table of Contents <docs/common-table-of-contents>
+   初次安装 <docs/initial-setup>
+   首飞 <docs/flying-arducopter>
+   高级设置<docs/common-advanced-configuration>
+   任务规划 <docs/common-mission-planning>
+   任务分析 <docs/common-mission-analysis>
+   可选硬件<docs/common-optional-hardware>
+   传统直升机 <docs/traditional-helicopters>
+   三轴直升机 <docs/tricopter>
+   单轴直升机与共轴直升机 <docs/singlecopter-and-coaxcopter>
+   AutoPilot硬件选项 <docs/common-autopilots>
+   实例与应用 <docs/common-use-cases-and-applications>
+   追踪天线 <docs/common-antenna-tracking>
+   仿真 <docs/common-simulation>
+   附录 <docs/common-appendix>
+   全目录<docs/common-table-of-contents>
 
 
 
