@@ -1,47 +1,44 @@
 .. _common-loading-firmware-onto-pixhawk:
 
 ========================================
-Loading Firmware onto Pixhawk/APM2.x/PX4
+在Pixhawk / APM2.x / PX4上刷写固件
 ========================================
 
-These instructions will show you how to download the latest firmware
-onto the Pixhawk, APM 2.x or PX4 controller.
+这些说明将告诉您如何下载最新的固件刷写到Pixhawk，APM2.x或PX4控制器.
 
 [copywiki destination="copter,plane,rover,planner"]
 
-Connect controller to computer
+将控制器连接到电脑
 ==============================
 
-Once you've :ref:`installed the Mission Planner <common-install-mission-planner>` onto your computer, connect
-the autopilot board to your computer using the micro USB cable as shown
-below. Use a direct USB port on your computer (not a USB hub).
+将 :ref:`Mission Planner安装到计算机 <common-install-mission-planner>` 上后, 使用micro USB数据线将飞控连接到计算机，如下所示。 在计算机上直接使用USB端口（不要用USB集线器）.
 
 .. figure:: ../../../images/pixhawk_usb_connection.jpg
    :target: ../_images/pixhawk_usb_connection.jpg
 
-   Pixhawk USB Connection
+   Pixhawk USB连接
 
 .. figure:: ../../../images/apm_micro_usb.jpg
    :target: ../_images/apm_micro_usb.jpg
 
-   APM USB Connection
+  APM USB连接
 
 .. figure:: ../../../images/PX4FMU_PX4IO_USB.jpg
    :target: ../_images/PX4FMU_PX4IO_USB.jpg
 
-   PX4 USB Connection
+   PX4 USB连接
 
-Windows should automatically detect and install the correct driver
-software.
+Windows应该会自动检测到飞控并安装正确的驱动程序
+软件
 
-Connect to Mission Planner
+
+连接到Mission Planner
 ==========================
 
-Open the *Mission Planner* and select the COM port drop-down on the
-upper-right corner of the screen (near the **Connect** button).  Select
-**AUTO** or the specific port for your board (**PX4 FMU** or **Arduino
-Mega 2560**). Set the Baud rate to **115200** as shown. Don't hit
-**Connect** just yet.
+打开 *Mission Planner* 并选择屏幕右上角的COM端口下拉菜单 (靠近 **连接** 按钮).  选择
+**AUTO** 或板卡的特定端口 (**PX4 FMU** 和 **Arduino
+Mega 2560**). 将波特率设置为 **115200** 如图所示. 先不要点击
+**连接** .
 
 .. image:: ../../../images/Pixhawk_ConnectWithMP.png
     :target: ../_images/Pixhawk_ConnectWithMP.png
@@ -49,17 +46,17 @@ Mega 2560**). Set the Baud rate to **115200** as shown. Don't hit
 .. image:: ../../../images/connect-to-com-port.png
     :target: ../_images/connect-to-com-port.png
 
-Install firmware
+安装固件
 ================
 
-On the Mission Planner's **Initial Setup \| Install Firmware** screen
-select the appropriate icon that matches your frame (i.e. Quad, Hexa). 
-Answer **Yes** when it asks you "Are you sure?".
+在Mission Planner's**初始设置\ | 安装固件**屏幕
+选择与您的机架相匹配的适当图标（即四轴，六轴）。
+当它问你"Are you sure?"回答**YES**
 
 .. figure:: ../../../images/Pixhawk_InstallFirmware.jpg
    :target: ../_images/Pixhawk_InstallFirmware.jpg
 
-   Mission Planner: Install FirmwareScreen
+   Mission Planner: 安装固件图示
 
 After the Mission Planner detects which board you are using (i.e.
 Pixhawk) it will ask you to unplug the board, plug it back in and then
