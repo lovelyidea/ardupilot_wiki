@@ -1,7 +1,7 @@
 .. _common-advanced-configuration:
 
 ======================
-Advanced Configuration
+高级设置
 ======================
 
 This section will take you through the more advanced configuration and
