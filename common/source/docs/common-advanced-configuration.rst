@@ -10,7 +10,7 @@ tuning options for the vehicle.
 .. toctree::
     :maxdepth: 1
 
-[site wiki="copter"]
+[site wiki="多旋翼"]
    :ref:` Tuning <common-tuning>`
     Compass Setup (Advanced) <common-compass-setup-advanced>
     UBlox GPS Configuration <common-ublox-gps>
