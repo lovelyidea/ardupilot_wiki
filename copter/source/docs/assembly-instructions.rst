@@ -1,21 +1,19 @@
 .. _assembly-instructions:
 
 =====================
-Assembly Instructions
+多轴飞行器装配说明
 =====================
 
-This section contains the instructions for assembling the "essential
-components" of Copter on Pixhawk and other flight control boards. The
-instructions for adding other hardware are covered in 
-:ref:`Optional Hardware <common-optional-hardware>`.
+本节包含了在Pixhawk和其他飞上组装多轴飞机的“基本组件”的说明。 有关添加其他硬件的说明，请参阅 
+:ref:`可选硬件 <common-optional-hardware>`.
 
 .. toctree::
     :maxdepth: 1
 
-    Mounting the Flight Controller <common-mounting-the-flight-controller>
-    Pixhawk Wiring QuickStart <common-pixhawk-wiring-and-quick-start>
-    Erle-Brain2 Wiring Quick Start <common-erle-brain2-wiring-quick-start>
-    PXFmini Wiring Quick Start <common-pxfmini-wiring-quick-start>
-    Connect ESCs and Motors <connect-escs-and-motors>
-    Installing GPS+Compass Module <common-installing-3dr-ublox-gps-compass-module>
-    Detailed Vehicle Builds <common-common-airframe-builds>
+    安装飞控 <common-mounting-the-flight-controller>
+    Pixhawk接线快速入门 <common-pixhawk-wiring-and-quick-start>
+    Erle-Brain 2接线快速入门 <common-erle-brain2-wiring-quick-start>
+    PXFmini接线快速入门 <common-pxfmini-wiring-quick-start>
+    连接ESC电调和电机 <connect-escs-and-motors>
+    安装GPS +指南针模块 <common-installing-3dr-ublox-gps-compass-module>
+    详细的飞行器构建 <common-common-airframe-builds>
