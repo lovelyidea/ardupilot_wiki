@@ -21,9 +21,9 @@
 .. image:: ../../../images/installation.png
     :target: ../_images/installation.png
 
-按照说明完成设置过程。 安装实用程序将自动安装任何必要的软件驱动程序 如果您收到DirectX安装错误，请从DirectX下载中心更新您的DirectX插件 `DirectX下载中心 <http://www.microsoft.com/en-us/download/details.aspx?id=35>`__.
+按照说明完成设置过程。 安装程序将自动安装任何必要的软件驱动程序 如果您收到DirectX安装错误，请从DirectX下载中心更新您的DirectX插件 `DirectX下载中心 <http://www.microsoft.com/en-us/download/details.aspx?id=35>`__.
 
-I如果收到此处所示的警告，请选择 **仍然安装此驱动程序软件** 以继续.
+如果收到此处所示的警告，请选择 **仍然安装此驱动程序软件** 以继续.
 
 .. image:: ../../../images/driver_installation_warning.png
     :target: ../_images/driver_installation_warning.png
