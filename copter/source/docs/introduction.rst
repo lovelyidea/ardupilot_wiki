@@ -29,7 +29,7 @@ enhance your own DIY multirotor craft.
 .. image:: ../images/copter-introduction-diagram.jpg
     :target: ../_images/copter-introduction-diagram.jpg
 
-Key features
+主要特点
 ============
 
 Key features include:
@@ -67,7 +67,7 @@ Key features include:
    every control parameter can be done from your laptop or mobile device
    - even while Copter is in the air!
 
-Getting started
+开始
 ===============
 
 If you're using Copter on a ready-to-fly vehicle then it is likely that
@@ -92,7 +92,7 @@ and other essential components. You can then proceed to :ref:`First Time Setup <
 :ref:`First Flight <flying-arducopter>` to learn how to configure and tune
 it.
 
-The development team
+开发团队
 ====================
 
 Copter is developed and maintained by a dedicated group of volunteers
@@ -105,7 +105,7 @@ privacy and safety of those whom we share this planet with. Please be a
 good steward of this technology. It is the product of many evenings and
 weekends, we make it available for benevolent use.*
 
-Learn more about Copter
+更多
 =======================
 
 To find out more about Copter and your main configuration decisions,
