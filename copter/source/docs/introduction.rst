@@ -115,10 +115,10 @@ please see the topics below:
 .. toctree::
     :maxdepth: 1
 
-    How Multicopters Work <what-is-a-multicopter-and-how-does-it-work>
-    What You’ll Need <what-you-need>
-    MultiCopter Safety <safety-multicopter>
-    Choosing a MultiCopter Frame <choosing-a-frame>
-    Choosing a Flight Controller <common-choosing-a-flight-controller>
-    Choosing a Ground Station <common-choosing-a-ground-station>
-    Use-Case Overview <copter-use-case-overview>
+    多旋翼飞机如何工作 <what-is-a-multicopter-and-how-does-it-work>
+    装机必备 <what-you-need>
+    安全注意事项<safety-multicopter>
+    选择多旋翼机架 <choosing-a-frame>
+    选择自驾仪 <common-choosing-a-flight-controller>
+    选择地面站 <common-choosing-a-ground-station>
+    使用案例 <copter-use-case-overview>
