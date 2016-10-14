@@ -3,7 +3,7 @@
 ======================
 高级设置
 ======================
-此页面有bug，暂时未能解决，如果您熟悉python及各类静态文档工具，请联系我们。
+此页面有bug，暂时未能解决，如果您熟悉python及各类静态文档工具，请联系我们解决此问题。
 
 This section will take you through the more advanced configuration and
 tuning options for the vehicle.
