@@ -1,13 +1,13 @@
 .. _copter-use-case-overview:
 
 ========================
-Copter Use-Case Overview
+多旋翼应用
 ========================
 
 This article provides an overview of some of the main use cases for
 Copter.
 
-Overview
+概述
 ========
 
 The Copter autopilot provides a stable flying platform that enables
@@ -43,7 +43,7 @@ payload delivery in difficult-to-reach places.
    Additional use cases and information are covered in the section
    :ref:`Use Cases and Applications <common-use-cases-and-applications>`.
 
-Still and Video Photography
+视频与照片
 ===========================
 
 Copter allows you to easily get to locations and take pictures/video
@@ -62,14 +62,14 @@ implement even more advanced vehicle/camera control ("smart shots")
 using `DroneKit-Python <http://python.dronekit.io/>`__ running on a
 Companion Computer.
 
-First Person View (FPV)
+ FPV第一人称飞行
 =======================
 
 *First Person View* allows you to fly your copter from the perspective
 of an actual on board pilot. This use case is discussed in the topic
 :ref:`First Person View (FPV) <common-fpv-first-person-view>`.
 
-Disaster response
+救灾
 =================
 
 Copters can help save lives/provide relief in the event of major
@@ -81,7 +81,7 @@ delivery of low-weight critical supplies, information and assistance.
 They can do this relatively cheaply without putting additional lives at
 risk (freeing up other resources to do actual recovery).
 
-Search (and rescue)
+搜查、营救
 ===================
 
 Copter makes an excellent platform for locating missing individuals and
@@ -95,7 +95,7 @@ to their low cost.
    Fixed wing vehicles have much greater range than Copter, and may be
    more suitable for searching large areas with low ground-cover.
 
-Agricultural applications
+农业应用
 =========================
 
 Agricultural inspection is a growing field for UAV applications.
@@ -117,14 +117,14 @@ Examples include:
    civilian uses of Multicopters. One benefit is that there are fewer
    restrictions when flying over private land.
 
-Forest fire mitigation
+森林防火
 ======================
 
 Copter has great potential for fire monitoring and detection (with an
 infrared camera, a Plane or Copter UAV can detect small camp fires even
 in heavy tree cover).
 
-Hazard/danger mitigation
+危险预警
 ========================
 
 More generally, Copter and Plane are useful for other hazard mitigation
@@ -135,13 +135,13 @@ They are already being used for shark patrols in beach areas, and there
 is no reason they could not similarly be used in any other "patrol"
 activity.
 
-3D Mapping and GIS (Geographic Information Systems)
+3D制图与GIS
 ===================================================
 
 Copter makes an effective 3D Mapping platform with a wide variety of
 potential applications. For more information see the topic :ref:`3D Mapping <common-3d-mapping>`.
 
-Inspection, Verification and Sample Collection
+检查、确认与样本采集
 ==============================================
 
 Architectural and building inspection/verification are possibly the
@@ -157,7 +157,7 @@ probe or other sample device). The `Modcopter Sample Collection System <http://p
 is an excellent government-backed student project for accessing a
 variety of samples.
 
-Payload Based Applications
+各类载荷
 ==========================
 
 Copter is suitable for delivery of low-mass emergency supplies,
@@ -167,7 +167,7 @@ etc.
 There are active investigations into other commercial applications
 including crop spraying and package delivery.
 
-Other applications
+其他应用
 ==================
 
 Copters are being used or considered in many other applications:
