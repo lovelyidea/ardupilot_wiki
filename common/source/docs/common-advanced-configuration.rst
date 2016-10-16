@@ -12,7 +12,8 @@ tuning options for the vehicle.
     :maxdepth: 1
 
 [site wiki="copter"]
-    Tuning <common-tuning>
+    3dmapping <common-3d-mapping.rst>
+    Tuning <common-tuning>
     Compass Setup (Advanced) <common-compass-setup-advanced>
     UBlox GPS Configuration <common-ublox-gps>
     Parameter Reset <common-parameter-reset>
