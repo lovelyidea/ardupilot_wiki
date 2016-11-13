@@ -1,14 +1,14 @@
 .. _flight-modes:
 
 ============
-Flight Modes
+飞行模式
 ============
 
 This article provides an overview of the available flight modes for
 Copter and instructions for how to configure which modes are available
 through the RC Transmitter.
 
-Overview
+概况
 ========
 
 Copter has 14 flight built-in flight modes, 10 of which are regularly
@@ -19,7 +19,7 @@ Flight modes are controlled through the radio (via a :ref:`transmitter switch <c
 via mission commands, or using commands from a ground station (GCS) or
 companion computer.
 
-Recommended Flight Modes
+推荐的飞行模式
 ========================
 
 In general when first starting to use Copter you should progress through
